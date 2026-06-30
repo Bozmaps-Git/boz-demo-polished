@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Polished — Boutique Nail Salon in Manchester | Manis, Gels & Nail Art</title>
+<meta name="description" content="Polished is a glossy boutique nail salon in Manchester's Northern Quarter. Book manicures, pedicures, BIAB gels, extensions and custom nail art. Online booking, gift vouchers and 5-star reviews." />
+<link rel="canonical" href="https://boz-demo-polished.vercel.app" />
+<meta name="theme-color" content="#f7c9dd" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Polished Nail Salon" />
+<meta property="og:title" content="Polished — Boutique Nail Salon in Manchester" />
+<meta property="og:description" content="Glossy gels, custom nail art and pamper pedicures in Manchester's Northern Quarter. Book online in seconds." />
+<meta property="og:url" content="https://boz-demo-polished.vercel.app" />
+<meta property="og:image" content="https://picsum.photos/seed/polished-og/1200/630" />
+<meta property="og:locale" content="en_GB" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Polished — Boutique Nail Salon in Manchester" />
+<meta name="twitter:description" content="Glossy gels, custom nail art and pamper pedicures in Manchester's Northern Quarter. Book online in seconds." />
+<meta name="twitter:image" content="https://picsum.photos/seed/polished-og/1200/630" />
+
+<!-- Inline SVG favicon -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f7c9dd'/%3E%3Cstop offset='1' stop-color='%23c9b8f7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Cpath d='M16 6c2.8 4 6 6.2 6 10.4A6 6 0 0 1 10 16.4C10 12.2 13.2 10 16 6z' fill='%23fff'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+
+<!-- JSON-LD: LocalBusiness NailSalon + AggregateRating -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  "name": "Polished Nail Salon",
+  "description": "Boutique nail salon in Manchester's Northern Quarter offering manicures, pedicures, BIAB gels, extensions and custom nail art.",
+  "url": "https://boz-demo-polished.vercel.app",
+  "telephone": "+441612345678",
+  "email": "hello@polishedmcr.co.uk",
+  "priceRange": "££",
+  "image": "https://picsum.photos/seed/polished-og/1200/630",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27 Tib Street",
+    "addressLocality": "Manchester",
+    "addressRegion": "Greater Manchester",
+    "postalCode": "M4 1LX",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 53.4845,
+    "longitude": -2.2360
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:30",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "10:30",
+      "closes": "16:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/polishedmcr",
+    "https://www.tiktok.com/@polishedmcr",
+    "https://www.facebook.com/polishedmcr"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "327",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top" aria-label="Polished, home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="34" height="34" focusable="false">
+          <defs>
+            <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f7c9dd"/>
+              <stop offset="1" stop-color="#c9b8f7"/>
+            </linearGradient>
+          </defs>
+          <rect width="32" height="32" rx="9" fill="url(#bg1)"/>
+          <path d="M16 6c2.8 4 6 6.2 6 10.4A6 6 0 0 1 10 16.4C10 12.2 13.2 10 16 6z" fill="#fff"/>
+        </svg>
+      </span>
+      <span class="brand-name">Polished</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#book">Book</a>
+      <a href="#vouchers">Vouchers</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-cta" href="#book">Book now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="sparkles" aria-hidden="true">
+      <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+      <span class="spark s4"></span><span class="spark s5"></span><span class="spark s6"></span>
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Northern Quarter · Manchester</p>
+        <h1 id="hero-title">Glossy nails, <span class="shine-text">seriously</span> good vibes.</h1>
+        <p class="lede">Polished is a boutique nail studio for people who love a flawless finish. Mirror-shine gels, hand-painted art and pamper pedis — booked online in under a minute.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#book">Book your appointment</a>
+          <a class="btn btn-ghost" href="#gallery">See the gallery</a>
+        </div>
+        <ul class="hero-trust" aria-label="Why guests love us">
+          <li><strong>4.9★</strong> from 327 reviews</li>
+          <li><strong>BIAB</strong> &amp; vegan-friendly</li>
+          <li><strong>7-day</strong> gloss guarantee</li>
+        </ul>
+      </div>
+      <div class="hero-art reveal">
+        <div class="hero-card glossy">
+          <img src="https://picsum.photos/seed/polished-hero/640/760" width="640" height="760" alt="Close-up of glossy lilac gel manicure with chrome accents" loading="eager" />
+          <span class="hero-badge">✨ Today: 3 slots left</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Gel manicures</span><span>•</span><span>Nail art</span><span>•</span><span>BIAB builder gel</span><span>•</span><span>Pamper pedis</span><span>•</span><span>Chrome &amp; cat-eye</span><span>•</span><span>Extensions</span><span>•</span>
+      <span>Gel manicures</span><span>•</span><span>Nail art</span><span>•</span><span>BIAB builder gel</span><span>•</span><span>Pamper pedis</span><span>•</span><span>Chrome &amp; cat-eye</span><span>•</span><span>Extensions</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">The menu</p>
+        <h2 id="services-title">Services &amp; prices</h2>
+        <p class="section-sub">Filter by what you fancy. Every treatment includes a cuticle tidy, hand massage and a complimentary brew.</p>
+      </header>
+
+      <div class="filter-bar" role="group" aria-label="Filter services by category">
+        <button class="chip is-active" data-filter="all" type="button">All</button>
+        <button class="chip" data-filter="manicure" type="button">Manicures</button>
+        <button class="chip" data-filter="pedicure" type="button">Pedicures</button>
+        <button class="chip" data-filter="gel" type="button">Gels</button>
+        <button class="chip" data-filter="extension" type="button">Extensions</button>
+        <button class="chip" data-filter="art" type="button">Nail art</button>
+      </div>
+
+      <ul class="menu-list" id="menu-list" aria-live="polite"></ul>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section section-tint" id="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Lookbook</p>
+        <h2 id="gallery-title">Nail-design gallery</h2>
+        <p class="section-sub">Tap any look to view it bigger. Filter by the style you're after — then screenshot it for your appointment.</p>
+      </header>
+
+      <div class="filter-bar" role="group" aria-label="Filter gallery by style">
+        <button class="chip is-active" data-gfilter="all" type="button">All looks</button>
+        <button class="chip" data-gfilter="chrome" type="button">Chrome</button>
+        <button class="chip" data-gfilter="french" type="button">French</button>
+        <button class="chip" data-gfilter="floral" type="button">Floral</button>
+        <button class="chip" data-gfilter="minimal" type="button">Minimal</button>
+        <button class="chip" data-gfilter="glitter" type="button">Glitter</button>
+      </div>
+
+      <ul class="gallery-grid" id="gallery-grid"></ul>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section" id="book" aria-labelledby="book-title">
+    <div class="container book-grid">
+      <div class="book-intro reveal">
+        <p class="eyebrow">Two minutes, sorted</p>
+        <h2 id="book-title">Book your slot</h2>
+        <p class="section-sub">Pick a treatment, choose a day and grab a time. We'll confirm by text — no deposit needed for standard appointments.</p>
+        <ul class="book-points">
+          <li><span class="tick" aria-hidden="true">✓</span> Free rescheduling up to 24h before</li>
+          <li><span class="tick" aria-hidden="true">✓</span> Walk-ins welcome when we're quiet</li>
+          <li><span class="tick" aria-hidden="true">✓</span> Accessible studio, step-free entrance</li>
+        </ul>
+      </div>
+
+      <form class="card form-card glossy reveal" id="booking-form" novalidate>
+        <div class="field">
+          <label for="b-service">Treatment</label>
+          <select id="b-service" name="service" required aria-required="true">
+            <option value="">Choose a treatment…</option>
+          </select>
+          <p class="error" id="err-service" hidden>Please choose a treatment.</p>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="b-date">Date</label>
+            <input type="date" id="b-date" name="date" required aria-required="true" />
+            <p class="error" id="err-date" hidden>Please pick a date (today or later).</p>
+          </div>
+          <div class="field">
+            <label for="b-slot">Time</label>
+            <select id="b-slot" name="slot" required aria-required="true">
+              <option value="">Choose a time…</option>
+              <option>09:30</option><option>10:45</option><option>12:00</option>
+              <option>13:30</option><option>15:00</option><option>16:15</option><option>17:30</option>
+            </select>
+            <p class="error" id="err-slot" hidden>Please pick a time slot.</p>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="b-name">Your name</label>
+            <input type="text" id="b-name" name="name" required aria-required="true" autocomplete="name" />
+            <p class="error" id="err-name" hidden>Please tell us your name.</p>
+          </div>
+          <div class="field">
+            <label for="b-phone">Mobile</label>
+            <input type="tel" id="b-phone" name="phone" required aria-required="true" autocomplete="tel" inputmode="tel" placeholder="07…" />
+            <p class="error" id="err-phone" hidden>Please enter a valid UK mobile.</p>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit">Request booking ✦</button>
+        <p class="form-note">By booking you agree to our cancellation policy. This is a demo — no real appointment is made.</p>
+
+        <div class="success-panel" id="booking-success" role="status" hidden>
+          <span class="success-burst" aria-hidden="true">🎉</span>
+          <h3>You're on the list!</h3>
+          <p id="booking-summary"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- VOUCHERS -->
+  <section class="section section-tint" id="vouchers" aria-labelledby="vouchers-title">
+    <div class="container voucher-grid">
+      <div class="reveal">
+        <p class="eyebrow">Treat someone (or yourself)</p>
+        <h2 id="vouchers-title">Gift vouchers</h2>
+        <p class="section-sub">The perfect little pick-me-up. Choose an amount, add a message, and we'll generate a code instantly. Redeemable on any treatment for 12 months.</p>
+        <div class="voucher-preview glossy" aria-hidden="true">
+          <div class="vp-top">
+            <span class="vp-brand">Polished</span>
+            <span class="vp-amount" id="vp-amount">£40</span>
+          </div>
+          <p class="vp-msg" id="vp-msg">Because you deserve a little gloss.</p>
+          <p class="vp-code" id="vp-code">XXXX-XXXX-XXXX</p>
+        </div>
+      </div>
+
+      <form class="card form-card glossy reveal" id="voucher-form" novalidate>
+        <fieldset class="amount-pick">
+          <legend>Amount</legend>
+          <div class="amount-options" role="radiogroup" aria-label="Voucher amount">
+            <label class="amount-opt"><input type="radio" name="amount" value="25" /><span>£25</span></label>
+            <label class="amount-opt"><input type="radio" name="amount" value="40" checked /><span>£40</span></label>
+            <label class="amount-opt"><input type="radio" name="amount" value="60" /><span>£60</span></label>
+            <label class="amount-opt"><input type="radio" name="amount" value="100" /><span>£100</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="v-to">Recipient name</label>
+          <input type="text" id="v-to" name="to" required aria-required="true" />
+          <p class="error" id="err-vto" hidden>Who is this gift for?</p>
+        </div>
+
+        <div class="field">
+          <label for="v-msg">Personal message <span class="muted">(optional)</span></label>
+          <input type="text" id="v-msg" name="message" maxlength="80" placeholder="Because you deserve a little gloss." />
+        </div>
+
+        <div class="field">
+          <label for="v-email">Your email</label>
+          <input type="email" id="v-email" name="email" required aria-required="true" autocomplete="email" />
+          <p class="error" id="err-vemail" hidden>Please enter a valid email.</p>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit">Generate voucher ✦</button>
+        <p class="form-note">Demo only — no payment is taken and no email is sent.</p>
+
+        <div class="success-panel" id="voucher-success" role="status" hidden>
+          <span class="success-burst" aria-hidden="true">💝</span>
+          <h3>Voucher created!</h3>
+          <p>Here's your gift code. Quote it in salon to redeem.</p>
+          <p class="voucher-code-out" id="voucher-code-out"></p>
+          <button type="button" class="btn btn-ghost btn-sm" id="copy-code">Copy code</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews" aria-labelledby="reviews-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">The gloss wall</p>
+        <h2 id="reviews-title">What our guests say</h2>
+        <p class="section-sub"><strong>4.9 out of 5</strong> · 327 verified reviews</p>
+      </header>
+      <ul class="reviews-grid" id="reviews-grid"></ul>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="section section-tint" id="visit" aria-labelledby="visit-title">
+    <div class="container visit-grid">
+      <div class="reveal">
+        <p class="eyebrow">Come say hi</p>
+        <h2 id="visit-title">Find us</h2>
+        <address class="nap">
+          <p><strong>Polished Nail Salon</strong><br/>27 Tib Street, Northern Quarter<br/>Manchester, M4 1LX</p>
+          <p>
+            <a href="tel:+441612345678">0161 234 5678</a><br/>
+            <a href="https://wa.me/447700900123" target="_blank" rel="noopener">WhatsApp us</a><br/>
+            <a href="mailto:hello@polishedmcr.co.uk">hello@polishedmcr.co.uk</a>
+          </p>
+        </address>
+        <table class="hours">
+          <caption class="sr-only">Opening hours</caption>
+          <tbody>
+            <tr><th scope="row">Tue – Fri</th><td>9:30 – 19:00</td></tr>
+            <tr><th scope="row">Saturday</th><td>9:00 – 18:00</td></tr>
+            <tr><th scope="row">Sunday</th><td>10:30 – 16:00</td></tr>
+            <tr><th scope="row">Monday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+        <a class="btn btn-primary" href="#book">Book a visit</a>
+      </div>
+      <div class="map-wrap glossy reveal">
+        <iframe
+          title="Map showing Polished Nail Salon on Tib Street, Manchester"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2410%2C53.4820%2C-2.2310%2C53.4870&amp;layer=mapnik&amp;marker=53.4845%2C-2.2360"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="map-link" href="https://www.openstreetmap.org/?mlat=53.4845&amp;mlon=-2.2360#map=17/53.4845/-2.2360" target="_blank" rel="noopener">View larger map</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Nail design preview" hidden>
+  <button class="lb-close" id="lb-close" aria-label="Close preview">×</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous design">‹</button>
+  <figure class="lb-figure">
+    <img id="lb-img" src="" alt="" />
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Next design">›</button>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand brand-foot" href="#top" aria-label="Polished, back to top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="30" height="30" focusable="false"><rect width="32" height="32" rx="9" fill="#f7c9dd"/><path d="M16 6c2.8 4 6 6.2 6 10.4A6 6 0 0 1 10 16.4C10 12.2 13.2 10 16 6z" fill="#fff"/></svg>
+        </span>
+        <span class="brand-name">Polished</span>
+      </a>
+      <p class="foot-tag">Boutique nails in Manchester's Northern Quarter.</p>
+    </div>
+
+    <div>
+      <h2 class="foot-h">Visit</h2>
+      <address class="nap">
+        27 Tib Street, Northern Quarter<br/>Manchester, M4 1LX<br/>
+        <a href="tel:+441612345678">0161 234 5678</a><br/>
+        <a href="mailto:hello@polishedmcr.co.uk">hello@polishedmcr.co.uk</a>
+      </address>
+    </div>
+
+    <div>
+      <h2 class="foot-h">Follow</h2>
+      <ul class="socials">
+        <li><a href="https://www.instagram.com/polishedmcr" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@polishedmcr" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a href="https://www.facebook.com/polishedmcr" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container foot-bottom">
+    <p>© <span id="year"></span> Polished Nail Salon · Demo site, not a real business.</p>
+    <p>Demo site built by <a href="https://bozapps.co.uk" target="_blank" rel="noopener">BozApps — bozapps.co.uk</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
