@@ -1,3 +1,6 @@
+
+function __lf(s,w,h){var n=0,x=String(s);for(var i=0;i<x.length;i++){n=(n*31+x.charCodeAt(i))>>>0;}return 'https://loremflickr.com/'+w+'/'+h+'/manicure?lock='+(n%100000);}
+function __av(s){return 'https://i.pravatar.cc/200?u=polished'+encodeURIComponent(String(s));}
 /* ============================================================
    Polished — vanilla JS. No dependencies.
    Features: nav, service menu+filter, booking, gallery+lightbox,
@@ -157,7 +160,7 @@
   var gGrid = $('#gallery-grid');
   var current = []; // filtered, in display order
 
-  function imgUrl(seed, w, h) { return 'https://picsum.photos/seed/' + seed + '/' + w + '/' + h; }
+  function imgUrl(seed, w, h) { return __lf(seed, w, h); }
 
   function renderGallery(filter) {
     if (!gGrid) return;
