@@ -373,6 +373,7 @@ input[aria-invalid="true"],select[aria-invalid="true"]{border-color:#e0518a;box-
   position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;
   background:rgba(58,42,58,.82);backdrop-filter:blur(6px);padding:20px;
   animation:fade .25s ease}
+.lightbox[hidden]{display:none}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 .lb-figure{margin:0;max-width:min(620px,92vw);text-align:center}
 .lb-figure img{width:100%;max-height:78vh;object-fit:contain;border-radius:var(--radius);box-shadow:var(--shadow-pop)}
